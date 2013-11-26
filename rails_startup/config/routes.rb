@@ -1,4 +1,7 @@
 Demo20131125::Application.routes.draw do
+  resources :people
+
+
     root :to => "welcome#index"
     get "welcome" => "welcome#index"
     get "welcome/index" => "welcome#index"
